@@ -29,7 +29,7 @@
 <script setup>
  import { defineAsyncComponent } from 'vue';
 //Import Components Asynchronously
-const NavBar = defineAsyncComponent(()=>import('@/components/Navbar.vue'));
+const Navbar = defineAsyncComponent(()=>import('@/components/Navbar.vue'));
 const HeroSection = defineAsyncComponent(()=>import('@/components/HeroSection.vue'));
 const ServicesSection = defineAsyncComponent(()=>import('@/components/ServicesSection.vue'));
 const AboutSection = defineAsyncComponent(()=>import('@/components/AboutSection.vue'));
